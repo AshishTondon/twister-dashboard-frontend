@@ -29,9 +29,9 @@ const MainMenu = ({username}:any) => {
                 
                 <ul className="navbar-nav navbar-nav-right">
                     <li className="nav-item nav-profile dropdown">
-                        <a className="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                        <a className="nav-link dropdown-toggle" id="profileDropdown" href="/#" data-toggle="dropdown" aria-expanded="false">
                             <div className="nav-profile-img">
-                                <img src="/assets/images/faces/face1.png" alt="image" />
+                                <img src="/assets/images/faces/face1.png" alt="Avtar" />
                                 <span className="availability-status online"></span>
                             </div>
                             <div className="nav-profile-text">

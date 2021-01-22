@@ -1,5 +1,5 @@
-import React,{ useEffect } from 'react';
-import AxiosFn from "../../util/axiosconfig";
+//import React,{ useEffect } from 'react';
+//import AxiosFn from "../../util/axiosconfig";
 
 const Home = ({state}:any) => {
 
@@ -35,7 +35,7 @@ const Home = ({state}:any) => {
                       <tbody>
                         <tr>
                           <td className="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-1.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-1.png" alt="image" />
                           </td>
                           <td> Herman Beck </td>
                           <td>
@@ -48,7 +48,7 @@ const Home = ({state}:any) => {
                         </tr>
                         <tr>
                           <td className="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-2.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-2.png" alt="image" />
                           </td>
                           <td> Messsy Adam </td>
                           <td>
@@ -61,7 +61,7 @@ const Home = ({state}:any) => {
                         </tr>
                         <tr>
                           <td className="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-3.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-3.png" alt="image" />
                           </td>
                           <td> John Richards </td>
                           <td>
@@ -74,7 +74,7 @@ const Home = ({state}:any) => {
                         </tr>
                         <tr>
                           <td className="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-4.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-4.png" alt="image" />
                           </td>
                           <td> Peter Meggik </td>
                           <td>
@@ -87,7 +87,7 @@ const Home = ({state}:any) => {
                         </tr>
                         <tr>
                           <td className="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-1.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-1.png" alt="image" />
                           </td>
                           <td> Edward </td>
                           <td>
@@ -100,7 +100,7 @@ const Home = ({state}:any) => {
                         </tr>
                         <tr>
                           <td className="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-2.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-2.png" alt="image" />
                           </td>
                           <td> John Doe </td>
                           <td>
@@ -113,7 +113,7 @@ const Home = ({state}:any) => {
                         </tr>
                         <tr>
                           <td className="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-3.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-3.png" alt="image" />
                           </td>
                           <td> Henry Tom </td>
                           <td>

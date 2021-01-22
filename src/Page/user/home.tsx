@@ -35,7 +35,7 @@ const Home = ({state}:any) => {
                       <tbody>
                         <tr>
                           <td className="py-1">
-                            <img src="assets/images/faces-clipart/pic-1.png" alt="image" />
+                            <img src="assets/images/faces-clipart/pic-1.png" alt="Avtar" />
                           </td>
                           <td> Herman Beck </td>
                           <td>

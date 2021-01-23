@@ -11,8 +11,10 @@ import { UserContext } from "../state/session/variables";
 
 const Routes = () => {
 
+    var basename = (window.location.hostname === "localhost")?"":"/twister-dashboard-frontend";
+
     return(
-        <Router>
+        <Router basename={basename}>
             <Switch>
                 {routes.map((route, i) => (
                     <RouteWithSubRoutes key={i} {...route} />

@@ -13,6 +13,7 @@ const Routes = () => {
 
     var basename = (window.location.hostname === "localhost")?"":"/twister-dashboard-frontend";
 
+    console.log("basename",basename);
     return(
         <Router basename={basename}>
             <Switch>

@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Assets/css/auth.css";
 import RouteWithSubRoutes from "../Routes/subroutes";
-import { BrowserRouter as Router,
+import { HashRouter as Router,
         Switch } from "react-router-dom";
 import { BASENAME } from "../Routes/routeconfig";
 

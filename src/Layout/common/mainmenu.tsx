@@ -40,7 +40,7 @@ const MainMenu = ({username}:any) => {
                         </a>
 
                         <div className="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-                            <a className="dropdown-item" href={LOGOUT_URL}>
+                            <a className="dropdown-item" href={`#${LOGOUT_URL}`}>
                                 <i className="mdi mdi-logout mr-2 text-primary"></i> Signout 
                             </a>
                         </div>

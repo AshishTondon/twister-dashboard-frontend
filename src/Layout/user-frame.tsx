@@ -1,6 +1,6 @@
 import React from 'react';
 import RouteWithSubRoutes from "../Routes/subroutes";
-import { BrowserRouter as Router,
+import { HashRouter as Router,
         Switch } from "react-router-dom";
 
 import MainMenu from "./common/mainmenu";

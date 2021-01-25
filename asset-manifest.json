@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/twister-dashboard-frontend/static/css/main.9cba1c25.chunk.css",
-    "main.js": "/twister-dashboard-frontend/static/js/main.701cd16e.chunk.js",
-    "main.js.map": "/twister-dashboard-frontend/static/js/main.701cd16e.chunk.js.map",
+    "main.js": "/twister-dashboard-frontend/static/js/main.9236dde5.chunk.js",
+    "main.js.map": "/twister-dashboard-frontend/static/js/main.9236dde5.chunk.js.map",
     "runtime-main.js": "/twister-dashboard-frontend/static/js/runtime-main.63efa25a.js",
     "runtime-main.js.map": "/twister-dashboard-frontend/static/js/runtime-main.63efa25a.js.map",
-    "static/js/2.c7c6f053.chunk.js": "/twister-dashboard-frontend/static/js/2.c7c6f053.chunk.js",
-    "static/js/2.c7c6f053.chunk.js.map": "/twister-dashboard-frontend/static/js/2.c7c6f053.chunk.js.map",
+    "static/js/2.40fe295e.chunk.js": "/twister-dashboard-frontend/static/js/2.40fe295e.chunk.js",
+    "static/js/2.40fe295e.chunk.js.map": "/twister-dashboard-frontend/static/js/2.40fe295e.chunk.js.map",
     "static/js/3.de8bfe5f.chunk.js": "/twister-dashboard-frontend/static/js/3.de8bfe5f.chunk.js",
     "static/js/3.de8bfe5f.chunk.js.map": "/twister-dashboard-frontend/static/js/3.de8bfe5f.chunk.js.map",
     "index.html": "/twister-dashboard-frontend/index.html",
     "static/css/main.9cba1c25.chunk.css.map": "/twister-dashboard-frontend/static/css/main.9cba1c25.chunk.css.map",
-    "static/js/2.c7c6f053.chunk.js.LICENSE.txt": "/twister-dashboard-frontend/static/js/2.c7c6f053.chunk.js.LICENSE.txt"
+    "static/js/2.40fe295e.chunk.js.LICENSE.txt": "/twister-dashboard-frontend/static/js/2.40fe295e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.63efa25a.js",
-    "static/js/2.c7c6f053.chunk.js",
+    "static/js/2.40fe295e.chunk.js",
     "static/css/main.9cba1c25.chunk.css",
-    "static/js/main.701cd16e.chunk.js"
+    "static/js/main.9236dde5.chunk.js"
   ]
 }

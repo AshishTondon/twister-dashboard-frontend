@@ -5,7 +5,7 @@ import { HashRouter as Router,
 
 import MainMenu from "./common/mainmenu";
 import SideMenu from "./common/sidebar";
-import { BASENAME } from "../Routes/routeconfig";
+// import { BASENAME } from "../Routes/routeconfig";
 
 
 const User = ({routes,state}:any) => {
@@ -32,7 +32,7 @@ const User = ({routes,state}:any) => {
 
                 <div className="main-panel">
                     <div className="content-wrapper">
-                        <Router basename={BASENAME}>
+                        <Router>
                             <Switch>
                                 {routes.map((route:any, i:number) => (
                                     <RouteWithSubRoutes key={i} {...route} />

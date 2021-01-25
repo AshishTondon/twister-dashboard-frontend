@@ -5,14 +5,14 @@ import {
     Redirect
   } from "react-router-dom";
 
-import routes,{ BASENAME } from "./routeconfig";
+import routes from "./routeconfig";
 import RouteWithSubRoutes from "./subroutes";
 import { UserContext } from "../state/session/variables";
 
 const Routes = () => {
 
     return(
-        <Router basename={BASENAME}>
+        <Router>
             <Switch>
                 {routes.map((route, i) => (
                     <RouteWithSubRoutes key={i} {...route} />

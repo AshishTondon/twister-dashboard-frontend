@@ -12,7 +12,7 @@ const RouteWithSubRoutes = (route:any) => {
 }
 
 const PublicRoute = ({ route, ...rest }:any) => {
-    
+  
   return(
     <UserContext.Consumer>
           {({isLogin, defaultURL}) => (
@@ -36,7 +36,7 @@ const PublicRoute = ({ route, ...rest }:any) => {
 };
 
 const ProtectedRoute = ({ route, ...rest }:any) => {
-  
+    
   return (
       <UserContext.Consumer>
           {(context) => ( //isLogin, defaultURL, token

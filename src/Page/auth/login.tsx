@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import mblogo from "../../Assets/image/Message-Broadcast-logo.png";
 import AxiosFn from "../../util/axiosconfig";
-import {RESETPWD_URL} from "../../Routes/routeconfig";
+import {RESETPWD_URL, VALIDATEUSER_URL} from "../../Routes/routeconfig";
 import sessionInit from "../../state/session/initiate";
 import { ILoginPkt } from "../../state/interface";
 
@@ -21,7 +21,7 @@ const Login = () => {
         //const axios = axiosFn({});
         //console.log("login-axios",axios);
         const axios = AxiosFn({});
-        var loginresult = await axios.post(`/api/monitoring/validateuser`,reqpkt);
+        var loginresult = await axios.post(VALIDATEUSER_URL, reqpkt);
 
         if(loginresult.status === 200 && loginresult.data.status === 200){
             await sessionInit(loginresult.data as ILoginPkt);

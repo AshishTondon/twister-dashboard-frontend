@@ -15,18 +15,22 @@ import UserHome from "../Page/user/home";
 //Session
 import Logout from "../state/session/close";
 
-export const BASENAME:string="/twister-dashboard-frontend"
+// Project Config
+// export const BASENAME:string="/twister-dashboard-frontend";
+// export const isHashURL:boolean=true;
 
 //Declare path
-export const AUTH_URL:string = `/auth`;
+export const AUTH_URL:string = "/auth";
 export const LOGIN_URL:string = AUTH_URL + "/login";
 export const RESETPWD_URL:string = AUTH_URL + "/forgot";
 export const REGISTER_URL:string = AUTH_URL + "/register";
-export const LOGOUT_URL:string = `/logout`;
+export const LOGOUT_URL:string = "/logout";
+export const SESSIONCHECK_URL:string = "/api/monitoring/sessioncheck";
+export const VALIDATEUSER_URL:string = "/api/monitoring/validateuser";
 
-export const ADMINDASHBOARD_URL:string = `/admin`;
+export const ADMINDASHBOARD_URL:string = "/admin";
 
-export const USERDASHBOARD_URL:string = `/user`;
+export const USERDASHBOARD_URL:string = "/user";
 export const USERHOME_URL:string = USERDASHBOARD_URL + "/home";
 export const USERPROGRAM_URL:string = USERDASHBOARD_URL + "/program";
 export const USEREPORT_URL:string = USERDASHBOARD_URL + "/report";

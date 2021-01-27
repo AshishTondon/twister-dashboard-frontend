@@ -1,7 +1,7 @@
 import React, { useState, useEffect, createContext } from "react";
 import AxiosFn from "../../util/axiosconfig";
 import { userinfoDef, UserrightsDef, righttypeDef } from "../interface";
-import { LOGIN_URL } from "../../Routes/routeconfig";
+import { LOGIN_URL,SESSIONCHECK_URL } from "../../Routes/routeconfig";
 
 export const UserContext = createContext<userinfoDef>({} as userinfoDef);
 
@@ -43,7 +43,7 @@ const SessionProvider = (props:any) => {
         const axios = AxiosFn({header:{Authorization:`Bearer ${token}`}});
 
         try{
-            var result = await axios.post("/api/monitoring/sessioncheck",{});
+            var result = await axios.post(SESSIONCHECK_URL, {});
         
             return (result.status === 200)?true:false;
         }catch(any){

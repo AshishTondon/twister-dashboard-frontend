@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const SideBarTab = ({route,index}:any) => {
   
+  useEffect(() => {
+
+      var anchortaglist = document.getElementsByClassName("nav-link");
+
+      console.log("anchortaglist",anchortaglist);
+  });
+
   if(route.hasOwnProperty("routes")){
     const icon = (route.hasOwnProperty("icon"))?`mdi ${route.icon} menu-icon`:"mdi mdi-crosshairs-gps menu-icon";
     

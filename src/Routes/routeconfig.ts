@@ -16,8 +16,8 @@ import UserHome from "../Page/user/home";
 import Logout from "../state/session/close";
 
 // Project Config
-// export const BASENAME:string="/twister-dashboard-frontend";
-// export const isHashURL:boolean=true;
+export const BASENAME:string="/twister-dashboard-frontend";
+export const isHashURL:boolean=true;
 
 //Declare path
 export const AUTH_URL:string = "/auth";

@@ -20,6 +20,11 @@ axios
 </li>
 </ul>
 
+## Scripts
+```bash
+"start": "react-scripts start",
+"build": "react-scripts build",
+```
 ## Steps to configure the template
 <ul>
 <li>
@@ -42,5 +47,11 @@ export interface routeDef {
     icon?:string // Icon name to display in menu 
 }
 ```
+</li>
+<li>
+Declare path in routeconfig.ts file. Default paths are already set in the file.
+</li>
+<li>
+Import layout and pages module 
 </li>
 </ul>

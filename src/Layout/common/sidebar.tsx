@@ -1,13 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
+import Anchor from "../../util/anchor";
 
 const SideBarTab = ({route,index}:any) => {
-  
-  useEffect(() => {
-
-      var anchortaglist = document.getElementsByClassName("nav-link");
-
-      console.log("anchortaglist",anchortaglist);
-  });
 
   if(route.hasOwnProperty("routes")){
     const icon = (route.hasOwnProperty("icon"))?`mdi ${route.icon} menu-icon`:"mdi mdi-crosshairs-gps menu-icon";
@@ -35,10 +29,10 @@ const SideBarTab = ({route,index}:any) => {
 
     return(
       <li className="nav-item" key={index}>
-        <a className="nav-link" href={route.path}>
+        <Anchor className="nav-link" href={route.path}>
           <span className="menu-title">{route.displayName}</span>
           <i className={icon}></i>
-        </a>
+        </Anchor>
       </li>
     );
   }

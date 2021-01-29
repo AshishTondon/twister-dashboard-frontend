@@ -1,5 +1,6 @@
 import React from "react";
 import { LOGOUT_URL } from "../../Routes/routeconfig";
+import Anchor from "../../util/anchor";
 
 const MainMenu = ({username}:any) => {
     
@@ -40,9 +41,9 @@ const MainMenu = ({username}:any) => {
                         </a>
 
                         <div className="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-                            <a className="dropdown-item" href={LOGOUT_URL}>
+                            <Anchor className="dropdown-item" href={LOGOUT_URL}>
                                 <i className="mdi mdi-logout mr-2 text-primary"></i> Signout 
-                            </a>
+                            </Anchor>
                         </div>
                     </li>
                 </ul>

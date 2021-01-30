@@ -1,11 +1,10 @@
 import React from 'react';
 import RouteWithSubRoutes from "../Routes/subroutes";
-import { HashRouter as Router,
-        Switch } from "react-router-dom";
+import {Switch } from "react-router-dom";
 
 import MainMenu from "./common/mainmenu";
 import SideMenu from "./common/sidebar";
-// import { BASENAME } from "../Routes/routeconfig";
+import Router from "../util/twisterRoute";
 
 
 const User = ({routes,state}:any) => {

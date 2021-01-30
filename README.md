@@ -71,15 +71,6 @@ In file ./Routes/routeconfig.ts
 <li>
 Set `ISHASHURL` to false
 </li>
-<li>
-Replace HashRouter with BrowserRouter in following file
-
-```
-./src/Routes/index.tsx
-./src/Layout/auth-frame.tsx
-./src/Layout/user-frame.tsx
-```
-</li>
 </ul>
 </li>
 <li>

@@ -1,9 +1,8 @@
 import React from 'react';
 import "../Assets/css/auth.css";
 import RouteWithSubRoutes from "../Routes/subroutes";
-import { HashRouter as Router,
-        Switch } from "react-router-dom";
-// import { BASENAME } from "../Routes/routeconfig";
+import { Switch } from "react-router-dom";
+import Router from "../util/twisterRoute";
 
 const Auth = ({routes}:any) => {
 

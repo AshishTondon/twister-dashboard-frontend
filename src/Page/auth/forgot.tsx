@@ -1,6 +1,6 @@
 import React from 'react';
 //import { useParams } from "react-router-dom";
-import mblogo from "../../Assets/image/Message-Broadcast-logo.png";
+import mblogo from "../../Assets/image/twister-logo.png";
 
 const Forgot = () => {
     

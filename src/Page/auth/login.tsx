@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import mblogo from "../../Assets/image/Message-Broadcast-logo.png";
+import mblogo from "../../Assets/image/twister-logo.png";
 import AxiosFn from "../../util/axiosconfig";
 import {RESETPWD_URL, VALIDATEUSER_URL} from "../../Routes/routeconfig";
 import sessionInit from "../../state/session/initiate";

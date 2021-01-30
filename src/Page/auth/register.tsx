@@ -1,5 +1,5 @@
 import React from 'react';
-import mblogo from "../../Assets/image/Message-Broadcast-logo.png";
+import mblogo from "../../Assets/image/twister-logo.png";
 
 const Register = () => {
 

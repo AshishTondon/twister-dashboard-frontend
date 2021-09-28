@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import mblogo from "../../Assets/image/twister-logo.png";
 import AxiosFn from "../../util/axiosconfig";
-import {RESETPWD_URL, VALIDATEUSER_URL} from "../../Routes/routeconfig";
+import {RESETPWD_URL, VALIDATEUSER_URL, REGISTER_URL} from "../../Routes/routeconfig";
 import sessionInit from "../../state/session/initiate";
 import { ILoginPkt } from "../../state/interface";
+import Anchor from "../../util/anchor";
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -63,7 +64,12 @@ const Login = () => {
             </form>
 
             <div id="formFooter">
-                <a className="underlineHover" href={RESETPWD_URL}>Forgot Password?</a>
+                <div className="col-sm-12">
+                    <Anchor className="underlineHover" href={RESETPWD_URL}>Forgot Password?</Anchor>
+                </div>
+                <div className="col-sm-12">
+                    <Anchor className="underlineHover" href={REGISTER_URL}>Register</Anchor>
+                </div>
             </div>
         </div>
     );

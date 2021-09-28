@@ -11,8 +11,8 @@ const AxiosFn = ({header = {}}:any) => {
                                     maxRedirects: 10,
                                     headers:header,
                                     maxContentLength: 50 * 1000 * 1000,
-                                    baseURL:"https://twister-dashboard-backend.herokuapp.com"
-                                    //baseURL:(window.location.hostname === "localhost")?"http://localhost:3030":""
+                                    //baseURL:"https://twister-dashboard-backend.herokuapp.com"
+                                    baseURL:(window.location.hostname === "localhost")?"http://localhost:3030":"https://twister-dashboard-backend.herokuapp.com"
                                 });
     
     return(axiosConfig);

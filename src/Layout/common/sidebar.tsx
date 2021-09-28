@@ -46,7 +46,7 @@ const Sidebar = ({routes}:any) => {
 
             {routes.map((route:any,index:number) => (
               (route.isDisplay)?<SideBarTab route={route} index={index} />:""
-            ))};
+            ))}
 
           </ul>
         </nav>

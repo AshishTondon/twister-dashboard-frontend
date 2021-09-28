@@ -1,5 +1,7 @@
 import React from 'react';
 import mblogo from "../../Assets/image/twister-logo.png";
+import Anchor from "../../util/anchor";
+import { LOGIN_URL } from "../../Routes/routeconfig";
 
 const Register = () => {
 
@@ -16,6 +18,10 @@ const Register = () => {
                 <input type="password" id="confirmpassword" className="fadeIn second" name="confirmpassword" placeholder="Confirm Password" />
                 <input type="submit" className="fadeIn fourth" value="Register" />
             </form>
+
+            <div id="formFooter">
+                <Anchor className="underlineHover" href={LOGIN_URL}>Login</Anchor>
+            </div>
         </div>
     );
 };

@@ -11,6 +11,7 @@ import Login from "../Page/auth/login";
 import Forgot from "../Page/auth/forgot";
 import Register from "../Page/auth/register";
 import UserHome from "../Page/user/home";
+import Programs from "../Page/user/programs";
 
 //Session
 import Logout from "../state/session/close";
@@ -82,7 +83,7 @@ const routes:routeDef[] = [
                 displayName:"Dashboard"
             },{
                 path: USERPROGRAM_URL,
-                component: UserHome,
+                component: Programs,
                 isAuth: true,
                 isDisplay:true,
                 displayName:"Programs",

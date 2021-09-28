@@ -9,18 +9,6 @@ import Router from "../util/twisterRoute";
 
 const User = ({routes,state}:any) => {
 
-
-    // useEffect(() => {
-    //     const script = document.createElement("script");
-    //     script.src = "/Assets/js/dashboard.js";
-    //     script.async = true;
-    //     script.onload = () => scriptLoaded();
-
-    //     document.body.appendChild(script);
-
-    //     console.log("document.body",document.body);
-    // });
-
     return(
         <div className="container-scroller">
             
